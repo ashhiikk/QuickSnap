@@ -70,6 +70,9 @@ SwinGame.DrawText ("Player 2 score: " +
 
 myGame.Score(1), Color.RoyalBlue, "GameFont", 0, 40);
 				SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), top.CardIndex, 350, 50);
+				SwinGame.DrawCell (SwinGame.BitmapNamed
+
+("Cards"), top.CardIndex, 521, 153);
 			}
 			else
 			{
