@@ -53,7 +53,7 @@ fi
 echo "Running ${VERSION}"
 
 if [ "$OS" = "$MAC" ]; then
-    "${EXE_PATH}"
+    EXE_PATH=$APP_PATH/bin/Debug/${GAME_NAME}.exe
 elif [ "$OS" = "$LIN" ]; then
     mono "$EXE_PATH"
 else #Windows
